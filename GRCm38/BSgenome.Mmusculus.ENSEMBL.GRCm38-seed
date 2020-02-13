@@ -1,0 +1,20 @@
+Package: BSgenome.Mmusculus.ENSEMBL.GRCm38
+Title: Full genome sequences for Mus Musculus (GRCm38)
+Description: Full genome sequences for Mus Musculus (Mouse) as provided by ENSEMBL (GRCm38, release 92 from ENSEMBL) and stored in Biostrings objects.
+Version: 0.1.0
+Author: Lance Parsons
+License: Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0/
+organism: Mus Musculus
+common_name: Mouse
+provider: ENSEMBL
+provider_version: GRCm38.p6
+release_date: Jan 2012
+release_name: Genome Reference Consortium Mouse Build 38
+source_url: ftp://ftp.ensembl.org/pub/release-96/fasta/mus_musculus/dna/
+organism_biocview: Mus_musculus
+BSgenomeObjname: Mmusculus
+circ_seqs: c("MT")
+SrcDataFiles: Source files were softmasked primary assembly. Downloaded  and converted to 2bit using `wget "ftp://ftp.ensembl.org/pub/release-96/fasta/mus_musculus/dna/Mus_musculus.GRCm38.dna_sm.primary_assembly.fa.gz"; gunzip Mus_musculus.GRCm38.dna_sm.primary_assembly.fa.gz; faToTwoBit Mus_musculus.GRCm38.dna_sm.primary_assembly.fa Mus_musculus.GRCm38.dna_sm.primary_assembly.2bit`
+PkgExamples: Mmusculus[["1"]]
+seqs_srcdir: /home/lparsons/Documents/projects/bsgenomeforge/GRCm38/GRCm38_seqs_srcdir/
+seqfile_name: Mus_musculus.GRCm38.dna_sm.primary_assembly.2bit

@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+*.Rcheck
+*_seqs_srcdir
+*.tar.gz
+BSgenome.*
+!BSgenome.*-seed
