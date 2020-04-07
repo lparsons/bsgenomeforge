@@ -1,0 +1,4 @@
+# Build ${REF_NAME} BSGenome package
+
+if (!require("BSgenome")) install.packages("BSgenome")
+forgeBSgenomeDataPkg("${DIR}/${PKGDIR}-seed")

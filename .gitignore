@@ -5,6 +5,9 @@
 
 *.Rcheck
 *_seqs_srcdir
+*_seqs_srcdir_tmp
 *.tar.gz
 BSgenome.*
 !BSgenome.*-seed
+BSgenome.Cintestinalis.KH.2012-seed
+!BSgenome.*-seed.template

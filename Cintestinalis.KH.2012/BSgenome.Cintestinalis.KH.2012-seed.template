@@ -1,0 +1,20 @@
+Package: ${PKGDIR}
+Title: Full genome sequences for Ciona intestinalis (KH2012 version, with Ensembl MT)
+Description: Full genome sequences for Ciona intestinalis (ciona robusta) as provided by ghost (KH2012). Mitochondrial sequence has been replaced with the improved MT sequence from Ensembl. Sequences are stored in Biostrings objects.
+Version: ${VERSION} 
+Author: Lance Parsons
+License: Artistic-2.0
+organism: Ciona intestinalis
+common_name: Ciona
+provider: Ghost and ENSEMBL
+provider_version: KH2012
+release_date: 2012
+release_name: Ciona intestinalis KH2012
+source_url: http://ghost.zool.kyoto-u.ac.jp/datas/JoinedScaffold.zip
+organism_biocview: Ciona_intestinalis
+BSgenomeObjname: Cintestinalis
+circ_seqs: c("MT")
+SrcDataFiles: Source files from Ghost database and Enseble release 99. The KhM0 chromosome was removed from Ghost reference and replaced with the MT sequence from Ensembl. The resulting fasta file was converted to 2bit using USCS faToTwoBit. The `get_KH2012_seqs.sh` script downloads and prcoesses the files.
+PkgExamples: Cintestinalis[["KhC1"]]
+seqs_srcdir: ${seqs_srcdir}
+seqfile_name: ${seqfile_name}
